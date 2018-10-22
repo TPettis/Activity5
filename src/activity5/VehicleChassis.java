@@ -1,7 +1,5 @@
 package activity5;
 
-import java.util.Set;
-
 public class VehicleChassis implements Chassis {
 
   //  Create a String named chassisName instance variable.

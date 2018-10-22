@@ -1,15 +1,17 @@
 package activity5;
 
 public class VehicleFrame implements Chassis {
+
   //String named vehicleFrameType instance variable.
   private String vehicleFrameType;
 
   //A public default constructor
-  public VehicleFrame(){
+  public VehicleFrame() {
     this.vehicleFrameType = "Unibody";
   }
+
   //An overloaded constructor with a String parameter value of vehicleFrameType
-  public VehicleFrame(String vehicleFrameType){
+  public VehicleFrame(String vehicleFrameType) {
     this.vehicleFrameType = vehicleFrameType;
   }
 
@@ -29,7 +31,7 @@ public class VehicleFrame implements Chassis {
   //public toString method
   public String toString() {
     return
-        "Chassis : " + chassis + "\n" +
-        "Vehicle Name : " + vehicleFrameType;
+            "Chassis      : " + chassis + "\n" +
+            "Vehicle Name : " + vehicleFrameType;
   }
 }
